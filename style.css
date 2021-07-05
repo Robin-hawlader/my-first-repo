@@ -23,13 +23,18 @@ h2{
 .half-width-img{
     width: 80%;
 }
-.link-button{
+
+a:link, a:visited{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 25px;
-    font-weight: 700;
+    border: 2px solid orange;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 100%;
+    color: black;
+}
+a:hover{
+    background-color:orange;
     color: white;
-    border-radius: 5px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
